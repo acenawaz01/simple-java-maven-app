@@ -37,15 +37,15 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>true</uniqueVersion>
-      <id>Maven Release</id>
-      <name>Maven Release</name>
+      <id>central</id>
+      <name>maven-release</name>
       <url>http://localhost:8081/repository/maven-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>Maven Snapshot</id>
-      <name>Maven Snapshot</name>
+      <id>snapshots</id>
+      <name>maven-snapshot</name>
       <url>http://localhost:8081/repository/maven-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
